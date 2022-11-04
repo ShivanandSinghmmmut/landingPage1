@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    background: lightblue url(img/bg1.jpg) no-repeat  center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    height: 20px;
+    
+}
+
+
+
+.landing-content{
+    position: relative;
+    top: 30%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text{
+    color: aliceblue;
+    
+}
+
+.content-text h1{
+    font-size: 40px;
+}
+
+.content-text h4{
+    font-size: 25px;
+}
+
+.content-left{
+    flex-basis: 50%;
+}
+
+.content-para{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.content-para p{
+    font-size: large;
+}
+
+.content-button{
+    margin-top: 20px;
+}
+
+.content-button button{
+    padding: 10px;
+    background-color: #28a5ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.content-right{
+    /* background-color: rgb(165 169 186); */
+    background-color: #fff;
+    flex-basis: 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.content-form{
+    margin-left: 22px;
+    margin-top: 20px;
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+}
+
+.content-form input{
+    
+    height: 35px;
+    width: 250px;
+    
+}
+
+.form-content{
+    margin: 20px;
+}
+
+.content-form label{
+    color: rgb(160, 160, 160);
+    display: block;
+    font-size: 16px;
+}
+
+.form-button{
+    /* width: 80%;
+    margin: auto; */
+    margin-bottom: -40px;
+    margin-top: 10px;
+}
+
+.form-button button{
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #28a5ff;
+    border: none;
+    color: aliceblue;
+}
+
+.form-center-text{
+    width: 100%;
+    
+    /* border: 2px solid black; */
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    /* border-radius: 50px; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -30px;
+    background-color: #28a5ff;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 480px) {
+    .landing-content{
+        flex-direction: column;
+    }
+  }
